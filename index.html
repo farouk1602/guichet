@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+  <header class="header">
+    <nav>
+      <div class="nav__bar">
+        <div class="nav__header">
+            <div class="loading">
+                <svg height="48px" width="64px">
+                    <polyline id="back" points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24"></polyline>
+                  <polyline id="front" points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24"></polyline>
+                  <polyline id="front2" points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24"></polyline>
+                </svg>
+              </div> 
+        </div>
+      </div>
+  </header>
+  
+  <div class="section__container header__container">
+    <div class="header__image">
+      <img src="img/Online Doctor-amico.svg" alt="header" />
+    </div>
+    <div class="header__content">
+      <h4>bonjour! <span>tiri berk</span></h4>
+      <h1>tirriiiiii berkkk</h1>
+      <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, hic.<span>tiri berk</span></h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit accusantium soluta minima iusto, quisquam debitis voluptates? Quisquam accusamus odit laboriosam provident sapiente. Totam, adipisci asperiores? Est deleniti eveniet voluptates blanditiis saepe? Veniam iste praesentium itaque vero esse! Dolorum, placeat iusto!
+      </p>
+      <div class="home__btns" >
+        <a  href="#gg" >Prise de ticket</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="section__container guichet" id="gg">
+    <h2><div class="spinner">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        </div></h2>
+    <h2>TIRIBERK</h2>
+    <div class="cmp">
+        <div class="compaitences__card">
+          <span><img src="img/Pediatrician-bro.svg" alt=""></span>
+          <div>
+            <h4>médecin 1</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, dolore!
+            </p>
+            <button class="button" onclick="next('medecin1')">cliquez ici</button>
+          </div>
+        </div>
+        <div class="compaitences__card">
+            <span><img src="img/CT scan-rafiki.svg" alt=""></span>
+          <div>
+            <h4>médecin 2</h4>
+            <p>     
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, dolores?
+            </p>
+            <button class="button" onclick="next('medecin2')">cliquez ici</button>
+          </div>
+        </div>
+        <div class="compaitences__card">
+            <span><img src="img/Ophthalmologist-rafiki.svg" alt=""></span>
+          <div>
+            <h4>médecin 3</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, provident.
+            </p>
+            <button class="button" onclick="next('medecin3')">cliquez ici</button>
+          </div>
+        </div>      
+      </div>
+      <div class="three-body" id="hello" style="display: none;">
+        <div class="three-body__dot"></div>
+        <div class="three-body__dot"></div>
+        <div class="three-body__dot"></div>
+        </div>
+        <h2 id="done" style="display: none;">opération terminée</h2>
+            <div class="output" >
+              <h2></h2>
+              <img id="medecinImage" >
+              <h3 id="medecinTitle"></h3>
+              <h3 id="ticketTitle"></h3>
+            </div>
+        </div>
+  
+<script src="script.js">
+ 
+
+</script>
+</body>
+</html>
